@@ -3,9 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Neurolink Survey Form</title>
 </head>
-<body>
-    
+<body>    
+<h1 id="title">Is Elon Musk's Neurolink Tests Ethically Okay?</h1>
+<p id="description">Thank you for taking the time to help us feel more informed about the tech world.</p>
+
+<form id="survey-form">
+  <div class="input-element">
+   <label id="name-label">
+     Name
+     <input placeholder="name" id="name" type="text" required/>
+   </label>
+  </div>
+
+<form>
+  <div class="input-element">
+   <label id="email-label">
+     Email
+     <input placeholder="email" id="email" type="email" required/>
+   </label>
+  </div>
+
+  <div class="input-element">
+   <label id="number-label">
+     Age
+     <input placeholder="age" id="number" min="5" max="100" type="number" optional/>
+   </label>
+  </div>
+
+  <div>
+    <div class="input-element">
+    <label id="select-label">
+     Would you volunteer for the Neurolink?
+     <select id="dropdown">
+       <option>Yes</option>
+       <option>No</option>
+       <option>Maybe</option>
+     </select>
+   </label>
+  </div>
+
+<div class="input-element">
+    <label>Do you believe this type of technology is revolutionary?</label>
+  </div>
+  <div class="input-element">
+    <label><input type="radio" name="volunteer" attribute="value" value="value"/>Yes</label>
+  </div>
+  <div class="input-element">
+    <label><input type="radio" name="volunteer" attribute="value" value="value"/>No</label>
+  </div>
+</div>
+
+<div class="input-element">
+    <label>What are your main concerns about the Neurolink?</label>
+  </div>
+  <div class="input-element">
+    <label><input type="checkbox" name="concerns" value="brain-data"/>Who own yout brain data?</label>
+  </div>
+  <div class="input-element">
+    <label><input type="checkbox" name="concerns" value="link-stops"/>What happens when the link stops working?</label>
+  </div>
+  <div class="input-element">
+    <label><input type="checkbox" name="concerns" value="brain"/>How is your brain protected?</label>
+  </div>
+  <div class="input-element">
+    <label><input type="checkbox" name="concerns" value="interpret"/>How does the brain interpret intrusive thoughts, etc?</label>
+  </div>
+</div>
+
+<div class="input-element">
+  <label>Additional comments:</label>
+  <textarea type="text"></textarea>
+</div>
+<button type="submit" id="submit">
+  Submit
+</buttom>
+</form>
+
+</form>
 </body>
 </html>
