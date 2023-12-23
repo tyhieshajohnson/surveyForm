@@ -1,8 +1,8 @@
 body {
-    background-color: lightblue;
+    background-color: white;
     text-align: center;
   }
-  
+
   form {
     max-width:500px;
     text-align: left;
@@ -35,5 +35,5 @@ body {
   }
   
   h1 {
-    color: white;
+    color: black;
   }
